@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>引导页</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		html,body {
+			height: 100%;
+		}
+		.swiper-container {
+			height: 100%;
+		}
+		.slide-1 img{
+			display: inline-block;
+			width: 100%;
+			margin-top: 20%;
+		}
+		.slide-2 img{
+			display: inline-block;
+			width: 100%;
+			margin-top: 10%;
+		}
+		.slide-3 img{
+			display: inline-block;
+			width: 100%;
+			margin-top: 10%;
+		}
+		.slide-1 {
+			background-image: url(img/side1.png);
+		}
+		.slide-2 {
+			background-image: url(img/side1.png);
+		}
+		.slide-3 {
+			background-image: url(img/side1.png);
+			position: relative;
+		}
+		#nextBtn {
+			position: fixed;
+			/*width:20%;*/
+			width:40px;
+			left:50%;
+			margin-left: -20px;
+			bottom: 24px;
+			/*z-index: 10;*/
+			animation: up 1s linear infinite;
+			-webkit-animation: up 1s linear infinite;
+		}
+		img {
+			width:100%;
+			display: block;
+		}
+		@keyframes up {
+	       0% {
+	           transform: translateY(0);
+	           opacity: 0
+	       }
+
+	       50% {
+	           transform: translateY(-20px);
+	           opacity: 1
+	       }
+
+	       100% {
+	           transform: translateY(-40px);
+	           opacity: 0
+	       }
+	   }
+	   @-webkit-keyframes up {
+	       0% {
+	           -webkit-transform: translateY(0);
+	           opacity: 0
+	       }
+
+	       50% {
+	           -webkit-transform: translateY(-20px);
+	           opacity: 1
+	       }
+
+	       100% {
+	           -webkit-transform: translateY(-40px);
+	           opacity: 0
+	       }
+	   }
+		.hello {
+			display: none;
+		}
+		.caktye_nar_tp{
+			display: block;
+			width: 60%;
+			/*margin-bottom: 10px;*/
+			margin: 30% auto;
+		}
+		.caktye_niubi{
+			display: block;
+			width: 60%;
+			/*margin-bottom: 10px;*/
+			margin: 30% auto;
+		}
+		.caktye_ffff{
+			display: none;
+			width: 100%;
+			margin: 20% auto;
+		}
+		.caktye_btn{
+			margin-top: 50%;
+
+		}
+		#mid{
+            display: none;
+		}
+		#mid{
+			display: none;
+		}
+		#jup{
+			display: none;
+		}
+		.cf p{
+             margin-top: 20%;
+		}
+		.login{
+			display: block;
+			position: fixed;
+			border: 1px solid #33CE0A;
+			right: 10%;
+			bottom: 2%;
+			width: 52px;
+			height: 20px;
+			text-align: center;
+			line-height: 20px;
+			color: #fff;
+			font-weight: bold;
+			background-color: #F36633;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="js/idangerous.swiper.min.js"></script>
+</head>
+<body>
+	<!-- <div>
+		http://192.168.6.105/swiperjs/css/idangerous.swiper.css
+	</div>
+	<div>
+		http://192.168.6.105/swiperjs/js/idangerous.swiper.min.js
+	</div> -->
+
+	<div class="swiper-container">
+	  <div class="swiper-wrapper">
+	    <div class="swiper-slide slide-1">
+	    	<div class="cakye_list1">
+	    		<div class="caktye_nar_tp">
+	    	  	 <p class="cakye_l1">
+	    	  	 	一、政府投入有限，基层教育经费严重不足，教学条件落后
+    在当代，任何的事情都离不开经济的支持，俗语云：“有钱能使鬼推磨”，这或许是人们的一种夸大说法，但我们也可以从中明白金钱的重要性，而作为教育行业，更是一个入不敷出的
+	    	  	 </p>
+	    	  	 <a href="###" id="mid"><img src="img/2.png"></a>
+	    	  </div>
+	    	</div>
+	    	  
+	    </div>
+	    <div class="swiper-slide slide-2">
+		    <div class="cakye_list2">
+		    	<div class="caktye_niubi">
+		    	    <a href="###" id="adc"><img src="img/1.png"></a>
+		    	    <p class="caktye_ffff">
+		    	    一、政府投入有限，基层教育经费严重不足，教学条件落后在当代，任何的事情都离不开经济的支持，俗语云：“有钱能使鬼推磨”，这或许是人们的一种夸大说法，但我们也可以从中明白金钱的重要性，而作为教育行业，更是一个入不敷出的
+		    	    </p>
+		    	</div>
+		    </div>    	    
+	    </div>
+	    <div class="swiper-slide slide-3">
+              <div class="caktye_niubi cf">
+		    	    <a href="###" id="jup"><img src="img/6.png"></a>
+		    	    <p class="caktye_app">
+		    	    一、政府投入有限，基层教育经费严重不足，教学条件落后在当代，任何的事情都离不开经济的支持，俗语云：“有钱能使鬼推磨”，这或许是人们的一种夸大说法，但我们也可以从中明白金钱的重要性，而作为教育行业，更是一个入不敷出的
+		    	    </p>
+		    	    <a href="login.html" class="login">登录</a>
+		    	</div>
+	    </div>
+	  </div>
+	</div>
+	<a href="javascript:void(0);" id="nextBtn">
+		<img src="img/arrow.png">
+	</a>
+	
+	<script type="text/javascript">
+	window.onload=function()//用window的onload事件，窗体加载完毕的时候
+     {
+     	$(".cakye_l1").show().addClass("animated bounceInLeft");
+     	$("#mid").show().addClass("animated bounceInUp");
+  	var mySwiper = new Swiper('.swiper-container',{
+		mode:"vertical",
+		onSlideChangeEnd:function() {
+			//回调
+			var currentPage = mySwiper.activeIndex;
+			switch(currentPage) {
+				case 0:
+				    $(".cakye_l1").show().addClass("animated bounceInLeft");	
+				case 1:
+					$(".caktye_ffff").show().addClass("animated bounceInRight");
+					$("#adc").show().addClass("animated bounceInLeft");
+                    break;
+				case 2:
+					$(".caktye_app").show().addClass("animated bounceInUp");
+					$("#jup").show().addClass("animated bounceInRight");
+			}
+		}
+	});
+	var nextBtn = document.getElementById("nextBtn");
+	nextBtn.onclick = function() {
+		mySwiper.swipeNext();
+	}
+   }
+
+	</script>
+	
+</body>
+</html>

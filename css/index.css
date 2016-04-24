@@ -1,0 +1,515 @@
+body{
+	max-width: 750px;
+/*	border:1px solid red;*/
+	margin:0 auto;
+}
+  a{
+    color: #333;
+  }
+ .wrap{
+       width: 100%;
+       /*height: 200px;*/
+       margin: 0 auto;
+       overflow: hidden;
+       position: relative;
+      }
+      .caktye{
+        width: 9999px;
+        height: 200px;
+        /*border: 1px solid red;*/
+        overflow: hidden;
+        position: relative;
+        left: 0;
+      }
+      .main{
+        text-align: center;
+        position: absolute;
+        bottom: 10px;
+        left: 35%;
+      }
+      .main button{
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            line-height: 25px;
+            border-radius: 25px;
+            display: inline-block;
+            border: none;
+            opacity: 0.8;
+      }
+      .active{
+          background-color: yellow;
+      }
+      .caktye a{
+      	  width: 400px;
+      	  /*height: 400px;*/
+          float: left;
+          /*overflow: hidden;*/
+          /*border: 1px solid red;*/
+          display: block;
+      }
+      #prevBtn{
+            display: block;
+            position: absolute;
+            left: 5px;
+            bottom: 45%;
+            width: 15px;
+            height: 15px;
+            border-left: 5px solid ;
+            border-top: 5px solid ;
+             border-color: rgba(246,140,23,1);
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+      }
+      #nextBtn{
+            display: block;
+            position: absolute;
+            right: 5px;
+            bottom: 45%;
+            width: 15px;
+            height: 15px;
+            border-right: 5px solid;
+            border-top: 5px solid;
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            border-color: rgba(246,140,23,1);
+      }
+ .caktye_nar{
+ 	height: 40px;
+ 	background-color: #efefef;
+ 	line-height: 40px;
+ }
+ .caktye_nar span{
+ 	font-size: 0.8rem;
+ 	margin-left: 2%;
+ 	font-family: "Microsoft YaHei" ! important;
+ }
+ .caktye_Navigation{
+ 	display: inline-block;
+ 	width: 15px;
+ 	height:12px;
+ 	float: right;
+ 	margin-right: 5%;
+    margin-top: 14px;
+ }
+ .caktye_index{
+  position: relative;
+ }
+ .caktye_list_active li{
+   /*border: 1px solid red;*/
+   background-color: #666;
+   border-bottom: 1px solid #dddddd; 
+   padding-left: 4%;
+ }
+ .caktye_list_active{
+ 	display: none;
+  position: absolute;
+  width: 100%;
+ }
+ .caktye_list_active a{
+ 	color: #dddddd;
+ 	font-weight: bold;
+ 	font-size: 0.8rem;
+ }
+ /*新闻头条*/
+ .caktye_news{
+    width: 95%;
+    margin: 0 auto;
+ }
+.caktye_more{
+     float: right;
+     margin-right: 5%;
+}
+.caktye_news_nar{
+  padding: 4% 4% 4% 4%;
+  border-bottom: 2px solid red;
+  margin-bottom: 2%;
+}
+.caktye_news_list{
+     border-bottom:1px solid #ccc;
+     padding-bottom: 8%;
+}
+
+ .caktye_news_list li{
+       float: left;
+ }
+ .caktye_news_time{
+ 	width: 30%;
+ 	text-align: center;
+  padding-top: 8%;
+
+ }
+ .caktye_news_time a{
+  display: inline-block;
+  background-color: #efe7ec;
+  border: 1px solid #edeaf1;
+  padding: 8% 10% 8% 10%;
+ }
+ .caktye_news_content{
+ 	width: 60%;
+ 	margin-left: 2%;
+  height: 125px;
+  padding: 2% 2% 2% 2%;
+  vertical-align: bottom; /*//强制底线*/
+  overflow: hidden; /*//隐藏超出部分*/
+  text-overflow: ellipsis; /*//超出省略号*/
+  /*white-space: nowrap;//强制超出不换行*/
+ }
+ .caktye_news_tittle{
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #22132D;
+ }
+ .caktye_news_cot{
+   color: #777;
+   font-weight: normal;
+    margin-top: 3%;
+    line-height: 18px;
+ }
+ /*底部*/
+ .caktye_footer_list{
+  width: 100%;
+  margin: 4% auto 0;
+  background-color: #ccc;
+ }
+ .caktye_footer_list li{
+    width: 33%;
+    float: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+ }
+ .caktye_ft_lt{
+  background-color: #65062A;
+  color: #fff;
+  padding-top: 2%;
+  padding-bottom: 2%;
+ }
+ .caktye_ft_lt p{
+    text-align: center;
+ }
+ .caktye_news_lianjie{
+   width: 88%;
+   padding: 2% 4% 2% 4%;
+   margin-left: 10%;
+   margin-top: 5%;
+   display: block;
+   margin-bottom: 5%;
+   font-weight: bold;
+   color: #f66516;
+   border-left:2px solid red; 
+ }
+
+ /*/////////////登陆////////////////*/
+
+.caktye_login a{
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  padding:12px 12px;
+  vertical-align: middle;
+  background-color: #00a988;
+ }
+ .caktye_login{
+  width: 88%;
+  margin:0 auto;
+  /*border: 1px solid red;*/
+
+ }
+ .caktye_login li{
+  margin-top: 8%;
+ }
+ .caktye_login input{
+    border:1px solid #00a988; 
+    display: inline-block;
+    width: 78%;
+    height:44px;
+    vertical-align: middle;
+    padding-left: 4%;
+ }
+ .caktye_login_nar{ 
+    padding-bottom: 4%;
+    width: 95%;
+    margin: 35% auto;
+ }
+ .caktye_cup,.caktye_cup1{
+  text-align: right;
+  color: red;
+  margin-top: 2%;
+ }
+ .caktye_cup span ,.caktye_cup1 span{
+  display: none;
+ }
+ .caktye_rember{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left:6%;
+  margin-top: 3%;
+  /*vertical-align: middle;*/
+ }
+ .caktye_rember_1{
+  display: inline-block;
+  height: 27px;
+  /*border: 1px solid red;*/
+  vertical-align: middle;
+  margin-left: 2%;
+ }
+ .caktye_lbtn{
+  display: block;
+  width: 88%;
+  margin-left: 5%;
+  height:32px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 32px;
+  margin-top: 4%;
+  background-color: #00a988;
+ }
+ .caktye_nbtn{
+ display: block;
+  width: 88%;
+  margin-left: 5%;
+  margin-top: 4%;
+  height:32px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #00a988;
+ }
+
+/*//////////news.html///////////////*/
+.caktye_news_content_content{
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 4%;
+} 
+.caktye_news_content_content h2{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.cktye_writer{
+  text-align: right;
+  display: block;
+  margin-right: 8%;
+  margin-bottom: 4%;
+}
+.caktye_news_content_content em{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.caktye_news_content_content p{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  font-weight: normal;
+  line-height: 24px;
+}
+.caktye_news_content_content a{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*//////学院风貌//////*/
+.caktye_tab_nar li{
+ width: 50%;
+ float: left;
+ height: 24px;
+ line-height: 24px;
+ font-weight: bold;
+ color: #333;
+ background-color: #ccc;
+ text-align: center;
+}
+.caktye_tab_nar{
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+.caktye_tab_nar li:hover{
+  background-color: red;
+  color: #ccc;
+}
+.caktye_feng_list{
+  width: 80%;
+  margin: 0 auto;
+  
+}
+.caktye_feng_list li{
+  margin-top: 10%;
+  text-align: center;
+  border-bottom: 1px solid #eeeeee;
+}
+.caktye_feng_list li p{
+  display: block;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+/*.caktye_feng_tab1 dt a ,.caktye_feng_tab2 dt a{
+   display: inline-block;
+   border: 1px solid red;
+   width: 88px;
+   height: 88px;
+   float: left;
+   margin-right: 4%;
+}*/
+.caktye_feng_tab1 dt p{
+  margin-top: 3%;
+}
+.caktye_feng_tab1 dt , .caktye_feng_tab2 dt{
+  /*border: 1px solid red;*/
+  padding-top: 4%;
+  padding-left: 4%;
+  padding-bottom: 4%;
+}
+.caktye_feng_tab1 ,.caktye_feng_tab2{
+  border-bottom: 1px solid #eee;
+}
+.caktye_feng_tab2 dt a,.caktye_feng_tab1 dt a{
+   display: inline-block;
+   border: 1px solid #eeeeee;
+   width: 88px;
+   height: 59px;
+   float: left;
+   margin-top: 4%;
+   margin-right: 4%;
+}
+.caktye_feng_tab2 dt p{
+  margin-top: 2%;
+}
+.caktye_feng_tab{
+  width: 80%;
+  margin: 0 auto;
+}
+
+       /* .wrap{
+            margin-left: 50px;
+            margin-top: 50px;
+        }*/
+        /*清浮动---clearfix*/
+        .clearfix {
+            *zoom: 1;
+        }
+        .clearfix:after {
+            content: "";
+            clear: both;
+            display: block;
+            height: 0;
+            font-size: 0;
+            visibility: hidden;
+        }
+        .blist {
+            border:1px solid #d9d9d9;
+            width: 100%;
+            height: 32px;
+        }
+        .blist  li:first-child{
+            border-left: none;
+        }
+        .blist li{
+              list-style: none;
+              width: 50%;
+              font-size: 14px;
+              font-family: "楷体";
+              line-height: 32px;
+              text-align: center;
+              float: left;
+              /*鼠标样式改变为一个手*/
+              cursor: pointer;
+              /*字体免选中*/
+              -webkit-user-select: none;
+ 
+        }
+        .blsit-list{
+            width: 100%;
+        }
+        .blsit-list li{
+              list-style: none;
+              width: 100%;
+              /*height: 200px;*/
+              border-bottom:1px solid #ccc;
+              border-top: none;
+        }
+        .blist li.active{
+            font-weight: bold;
+            color: red;
+            border-top: 2px solid red;
+            position: relative;
+            top:-1px;
+            height: 31px;
+        }
+        .blsit-list li:first-child{
+            display: block;
+        }
+       .blsit-list li{
+          display: none;
+       }
+       .caktye_feng_nar{
+        color: red;
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding:2% 4% 2% 4%;
+        display: block;
+        border-left:2px solid red;
+        margin-top: 5%;
+        margin-bottom: 5%; 
+       }
+/*/////////////系部站点///////////////////*/
+
+.caktye_sum_lfet{
+   /*border: 1px solid red;*/
+   width: 88%; 
+   margin: 0 auto 10%;
+}
+
+.caktye_sum_lfet li a{
+  color: #134F73;
+  display: inline-block;
+  width: 45%;
+  /*border: 1px solid red;*/
+  float: left;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #eee;
+  border-radius: 60px;
+  /*margin: 10pxpx;*/
+  margin-left: 2.5%;
+  margin-top: 10%;
+}
+.caktye_sum_lfet li a:hover{
+  color: red;
+}
+.caktye_sum_main_top em{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.caktye_sum_main_top{
+  margin-top:4%;
+  margin-bottom: 4%;
+  font-weight: bold;
+  color: #333;
+}
+
+/*水电查询*/
+.caktye_water{
+  width: 88%;
+  margin: 0 auto;
+  padding-bottom: 10%;
+}
+.caktye_water h2{
+  font-size: 1rem;
+  font-weight: bold;
+  color: red;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.caktye_water a{
+   display: block;
+   width: 196px;
+   height: 147px;
+   margin:  0 auto;
+}

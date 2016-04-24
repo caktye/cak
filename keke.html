@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/nar.js"></script>
+	<title>水电查询</title>
+</head>
+<body>
+	    <header>
+	       <div class="caktye_top">
+	       	    <img src="img/topbg.png">
+	       </div>
+           <div class="caktye_nar">
+	   <ul>
+	   	<li class="caktye_index">
+	   		<span>导航</span><a href="###" class="caktye_Navigation"><img src="img/nar.png"></a>
+	   		<ul class="caktye_list_active">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="feng.html">学院风貌</a></li>
+                <li><a href="depa.html">系部站点</a>
+                 <li><a href="index.html">最新热闻</a></li>
+                <li><a href="index.html">通知通告</a></li>
+                <li><a href="keke.html">水电查询</a>
+	   		</ul>
+	   	</li>
+	   </ul>
+	   </header>
+       <section>
+       <div class="caktye_water
+       ">
+         <h2>亲，暂无更多数据哦！敬请期待！</h2>
+         <a href="###">
+            <img src="img/kk.gif">  
+         </a>
+       </div>
+       </section>
+          <footer>
+    <div class="caktye_news_lianjie">
+              <span>常用链接</span>
+            </div>
+         <ul class="caktye_footer_list clearfix">
+           <li><a href="index.html">首页</a></li>
+                <li><a href="feng.html">学院风貌</a></li>
+                <li><a href="depa.html">系部站点</a>
+                 <li><a href="index.html">最新热闻</a></li>
+                <li><a href="index.html">通知通告</a></li>
+                <li><a href="keke.html">水电查询</a>
+         </ul>
+         <div class="caktye_ft_lt">
+              <p>校园查号台：0760-88291180</p>
+              <p>学校办公室电话：0760-88291180</p>
+              <p>招生咨询电话：0760-88291862</p>
+              <p>继续教育咨询电话：0760-88291163</p>
+              <p>粤ICP备10009013号</p>
+              <p>版权所有 © 中山火炬职业技术学院</p>
+         </div>
+    </footer>
+
+
+	     <script type="text/javascript">
+       $(function(){
+             $(".blist").on("click","li",function(){
+                  // 设index为当前点击
+                  var index = $(this).index();
+                  // 点击添加样式利用siblings清除其他兄弟节点样式
+                  $(this).addClass("active").siblings().removeClass("active");
+                  // 同理显示与隐藏
+                  $(this).parents(".caktye_feng_tab").find(".blsit-list li").eq(index).show().siblings().hide();
+             })
+       })
+       </script>
+</body>
+</html>
